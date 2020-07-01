@@ -1,0 +1,14 @@
+{
+  "editor.rulers": [
+    150
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true
+  }
+}
