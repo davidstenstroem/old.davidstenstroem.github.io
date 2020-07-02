@@ -15,6 +15,13 @@ module.exports = {
     },
   },
   plugins: [
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: './src/data',
+      },
+    },
+    'gatsby-transformer-yaml',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-typescript',
